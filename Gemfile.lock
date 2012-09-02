@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ragaskar/jslint_on_rails
+  revision: ebbfa6579638adbacb1e98bfbcca171072bacf63
+  branch: jshint
+  specs:
+    jslint_on_rails (1.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -133,6 +140,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jasmine
   jquery-rails
+  jslint_on_rails!
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   sqlite3

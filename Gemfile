@@ -22,6 +22,7 @@ end
 
 group :development, :test do
   gem 'jasmine'
+  gem 'jslint_on_rails', git: "https://github.com/ragaskar/jslint_on_rails", branch: 'jshint'
 end
 
 gem 'jquery-rails'
