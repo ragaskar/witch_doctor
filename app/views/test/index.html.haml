@@ -1,0 +1,12 @@
+#content
+:javascript
+  $(function() {
+    var witchDoctor = new WitchDoctor({el: $('#content')}),
+    main = $("<div>").css({'background-color': 'red', width: '100px', height: '100px'}),
+    detail1 = $("<div>").css({'background-color': 'blue', width: '100px', height: '100px'}),
+    detail2 = $("<div>").css({'background-color': 'green', width: '100px', height: '100px'});
+    setTimeout(function() {
+      witchDoctor.show(main);
+      witchDoctor.transition({el: detail1, direction: 'fromRight'});
+    }, 500);
+  });
